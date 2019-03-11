@@ -6,7 +6,8 @@
 # 
 # Purpose: To accept a pin and check for a match
 
-import errno, sys
+import errno
+import sys
 
 #valid_input definition
 def valid_input(pin):
