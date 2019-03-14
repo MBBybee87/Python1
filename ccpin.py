@@ -12,6 +12,11 @@ import sys
 #valid_input definition
 def valid_input(pin):
 
+    """
+    valid_input accepts a variable and checks to 
+    see if it is a 4 digit number
+    """
+
     if (pin == "1234"): #Remember to run this as a string check
         print("Your PIN is correct")
         return True
@@ -34,6 +39,11 @@ def valid_input(pin):
 
 #main definition
 def main():
+
+    """
+    This is the main function, it runs the full program for the
+    ccpin.py module. It will ask for your input.
+    """
 
     i = 0 #for while loop
     pin = 9999
